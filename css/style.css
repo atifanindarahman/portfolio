@@ -270,7 +270,17 @@ img{ max-width:100%; display:block; }
 .project-tag{ font-size: 0.72rem; color: var(--accent); padding: 1.25rem 1.5rem 0; letter-spacing: 0.03em; }
 .project-card h3{ font-size: 1.3rem; padding: 0.5rem 1.5rem 0; line-height:1.25; }
 .project-card p{ padding: 0 1.5rem; font-size: 0.94rem; }
-.project-meta{ font-size: 0.72rem; color: var(--ink-soft); padding-bottom: 1.5rem; }
+.project-meta{ font-size: 0.72rem; color: var(--ink-soft); padding: 0 1.5rem 1rem; }
+.project-link{
+  display:block; font-size: 0.76rem; color: var(--accent);
+  text-decoration:none; padding: 0.9rem 1.5rem; border-top: 1px solid var(--border);
+  transition: background 0.15s ease;
+}
+.project-link:hover{ background: rgba(168,71,31,0.07); }
+.project-card p code{
+  font-family: var(--font-mono); font-size: 0.85em; background: rgba(31,46,43,0.06);
+  padding: 0.1em 0.35em; border-radius: 2px;
+}
 
 @media (max-width: 780px){
   .project-grid{ grid-template-columns: 1fr; }
