@@ -18,7 +18,7 @@ everything that needs your real info:
 - Publications
 - Contact email + GitHub username link
 - CV file: drop a PDF into `assets/` named `Atif_Aninda_Rahman_CV.pdf`
-- Optional: swap the abstract SVG project graphics for real map screenshots
+- Optional: swap the abstract SVG project graphics for real map screenshot
 
 ## Run locally
 No build tools needed. Either:
